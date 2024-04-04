@@ -1,0 +1,113 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    width:100% ;
+}
+
+.menu-fundo1{
+    width: 100%;
+    height: 47px;
+    background-color: #1a4781;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#agrupamento{
+    margin-left: -200px;
+    
+}
+
+#agrupamento2{
+    transform: translateX(200px);
+    height: 47px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+#icones{
+    color: white;
+   font-size: 20px;
+   background-color: #3b71a7;
+   padding: 5px;
+   border-radius: 50px;
+}
+
+#perfil-menu1{
+    color: white;
+    font-size: 30px;
+}
+
+#carrinho-menu1{
+    color: white;
+    font-size: 20px;
+   
+}
+
+
+#escrita-menu1{
+    color: white;
+    font-size: 15px;
+    width: 100px;
+   
+}
+
+#hamb{
+    display: none;
+    color: white;
+    font-size: 30px;
+}
+
+#logo{
+    display: none;
+    width: 45px;
+    height: 45px;
+
+}
+
+.menu-fundo2{
+    margin-top: 5px;
+}
+
+.menu-fundo2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#logo2{
+    width: 45px;
+    height: 45px;
+}
+
+#menu{
+    text-decoration: none;
+    color: #1a4781;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pesquisa{
+    font-size: 18px;
+    background-color: silver;
+    border: none;
+}
+
+#icon-search{
+    font-size: 18px;
+    background-color: silver;
+    padding: 8px;
+    border-radius: 20px;
+    color: #848484;
+}
